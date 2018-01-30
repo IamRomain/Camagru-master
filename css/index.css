@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+*
+{
+	padding: 0;
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+}
+
+body
+{
+	background: linear-gradient(#FAFBF8, #E1E8D8);
+}
+
+header
+{
+	height: 60px;
+	position: fixed;
+	background-color: #8FC0A9;
+	width: 100%;
+	text-align: left;
+}
+
+#titre
+{
+	display: inline-block;
+	font-size : 80px;
+	line-height: 80px;
+	margin-left: 25px;
+}
+
+#lien_titre
+{
+	font-family: 'Permanent Marker', sans-serif;	
+	color: #E1E8D8;
+	text-decoration: none;
+}
+
+.lien_header
+{
+	color: #E1E8D8;
+	text-decoration: none;
+	font-size: 13px;
+	float: right;
+	padding: 23px 20px;
+}
+
+.lien_header:hover
+{
+	background-color: #82AF9A;
+}
+
+#content
+{
+	padding-top: 80px;
+}
+
+#BSC
+{
+	margin-top: 200px;
+	font-size: 50px;
+	max-width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#by_cmarin
+{
+	width: 75px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 200px;
+	margin-bottom: 200px;
+}
+
+#div_img
+{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#titre_photo
+{
+	font-size: 30px;
+	width: 49.2%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	background-color: #8FC0A9;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	color: #E1E8D8;
+}
+
+#titre_photo
+{
+	font-size: 30px;
+	width: 49.2%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	background-color: #8FC0A9;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	color: #E1E8D8;
+}
+
+#img
+{
+	width: 50%;
+}
+
+@media screen and (max-width: 600px)
+{
+	header
+	{
+		height: 140px;
+	}
+	#titre
+	{
+		width: 100%;
+		margin: 0;
+	}
+
+	.lien_header
+	{
+		padding: 23px 0px;
+		width: 50%
+	}
+}

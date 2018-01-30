@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+*
+{
+	padding: 0;
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	z-index: 1;
+}
+
+body
+{
+	background: linear-gradient(#FAFBF8, #E1E8D8);
+}
+
+header
+{
+	height: 60px;
+	position: fixed;
+	background-color: #8FC0A9;
+	width: 100%;
+	text-align: left;
+	z-index: 5;
+}
+
+#titre
+{
+	display: inline-block;
+	font-size : 80px;
+	line-height: 80px;
+	margin-left: 25px;
+}
+
+#lien_titre
+{
+	font-family: 'Permanent Marker', sans-serif;
+	color: #E1E8D8;
+	text-decoration: none;
+}
+
+#titre_2
+{
+	font-size: 25px;
+	float: right;
+	padding: 15px 20px;
+}
+
+#lien_titre_2
+{
+	color: #E1E8D8;
+	text-decoration: none;
+}
+
+#titre_login
+{
+	font-size: 25px;
+	float: right;
+	padding: 15px 20px;
+	color: #E1E8D8;
+}
+
+#Deconnexion
+{
+	float: right;
+	padding-top: 5px;
+	padding-right: 5px;
+}
+
+#content
+{
+	padding-top: 100px;
+}
+
+#midlane
+{
+	position: relative;
+	/*vertical-align: top;*/
+}
+
+#div_menu_gauche
+{
+	margin-top: 40px;
+	position: absolute;
+	top: 0;
+	display: inline-block;
+	width: 25%;
+	/*height: 100%;*/
+	/*margin-top: 0;*/
+	/*margin-bottom: auto;*/
+}
+
+#menu_gauche
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 118px;
+	height: 280px;
+	overflow-y: scroll;
+	border: 3px solid black;
+}
+
+#menu_gauche img
+{
+	width: 100px;
+}
+
+#menu_gauche input[type="radio"]
+{
+	display: none;
+}
+
+#menu_gauche>label>div
+{
+	width: 98px;
+	height: 98px;
+	border: 1px solid black;
+	background-color: white;
+}
+
+#menu_gauche>label>input[type="radio"]:checked ~ div>img
+{
+	width: 90px;
+}
+
+#menu_gauche>label>input[type="radio"]:checked ~ div
+{
+	width: 90px;
+	height: 90px;
+	border: 5px solid #8FC0A9;
+}
+
+#form_upload_file
+{
+	margin-top: 50px;
+	text-align: center;
+}
+
+#input_upload_file
+{
+	width: 160px;
+/*	height: 22px;
+	background-color: #8FC0A9;
+	border: 0px;
+	color: #E1E8D8;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;*/
+}
+
+#div_video
+{
+	display: inline-block;
+	width: 50%;
+	/*border: 3px solid black;*/
+	margin-left: 25%;
+	/*margin-right: 25%;*/
+}
+
+#cam
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#video
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#input_titre
+{
+	text-align: center;
+	width: 100%;
+	font-size: 20px;
+}
+
+#div_menu_droit
+{
+	margin-top: 40px;
+	position: absolute;
+	top: 0;
+	display: inline-block;
+	width: 25%;
+}
+
+#menu_droit
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 118px;
+	height: 280px;
+	overflow-y: scroll;
+	border: 3px solid black;
+}
+
+#menu_droit img
+{
+	width: 100px;
+}
+
+#menu_droit input[type="radio"]
+{
+	display: none;
+}
+
+#menu_droit>label>div
+{
+	width: 98px;
+	border: 1px solid black;
+	background-color: black;
+}
+
+#menu_droit>label>input[type="radio"]:checked ~ div>img
+{
+	width: 90px;
+}
+
+#menu_droit>label>input[type="radio"]:checked ~ div
+{
+	width: 90px;
+	border: 5px solid #8FC0A9;
+}
+
+#div_del_button
+{
+	text-align: center;
+}
+
+#delete_button
+{
+	width: 124px;
+	height: 20px;
+	background-color: #CD5D67;
+	border: 0px;
+	color: #E1E8D8;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+}
+
+#delete_button:focus
+{
+	outline-style: none;
+}
+
+#snapbutton
+{
+	width: 100%;
+	height: 30px;
+	background-color: #8FC0A9;
+	border: 0px;
+	color: #E1E8D8;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 25px;
+}
+
+#snapbutton:focus
+{
+	outline-style: none;
+}
+
+#div_canvas
+{
+	display: none;
+}
+
+#input
+{
+	display: none;
+}
+
+@media screen and (max-width: 600px)
+{
+	header
+	{
+		height: 140px;
+		position: static;
+	}
+	#titre
+	{
+		width: 100%;
+		margin: 0;
+	}
+	#titre_2
+	{
+		padding: 15px 0px;
+		width: 50%;
+	}
+	#Deconnexion
+	{
+		width: 49%;
+	}
+}

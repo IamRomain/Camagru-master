@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+*
+{
+	padding: 0;
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+}
+
+body
+{
+	background: linear-gradient(#FAFBF8, #E1E8D8);
+}
+
+header
+{
+	height: 60px;
+	position: fixed;
+	background-color: #8FC0A9;
+	width: 100%;
+	text-align: left;
+}
+
+#titre
+{
+	display: inline-block;
+	font-size : 80px;
+	line-height: 80px;
+	margin-left: 25px;
+}
+
+#lien_titre
+{
+	font-family: 'Permanent Marker', sans-serif;	
+	color: #E1E8D8;
+	text-decoration: none;
+}
+
+#titre_2
+{
+	color: #E1E8D8;
+	text-decoration: none;
+	font-size: 25px;
+	float: right;
+	padding: 15px 20px;
+}
+
+#formulaire
+{
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	padding-bottom: 10px;
+	width: 300px;
+	background-color: #8FC0A9;
+	border-radius: 5px;
+}
+
+#bouton
+{
+	margin-top: 10px;
+}
+
+#content
+{
+	padding-top: 80px;
+}
+
+#label_log
+{
+	margin-left: 30px;
+	margin-right: 40px;
+}
+
+#label_mp
+{
+	margin-left: 2px;
+	margin-right: 12px;
+}
+
+#label_email
+{
+	margin-right: 9px;
+}
+
+#div_lien
+{
+	margin-top: 50px;
+}
+
+#lien_bas
+{
+	color: #8FC0A9;
+}
+
+#lien_bas:hover
+{
+	color: #82AF9A;
+}
+
+@media screen and (max-width: 600px)
+{
+	header
+	{
+		height: 140px;
+		position: static;
+	}
+	#titre
+	{
+		width: 100%;
+		margin: 0;
+	}
+	#titre_2
+	{
+		padding: 15px 0px;
+		width: 100%
+	}
+	#formulaire
+	{
+		margin-top: 20px;
+	}
+}
