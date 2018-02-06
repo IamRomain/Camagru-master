@@ -82,7 +82,7 @@ header
 {
 	margin-top: 40px;
 	position: absolute;
-	left: -200;
+	left: -400;
 	display: inline-block;
 	width: 25%;
 	/*height: 100%;*/
@@ -268,6 +268,22 @@ header
 {
 	display: none;
 }
+
+
+
+
+#fleche_filtre
+{
+	display: flex;
+	left: 50;
+}
+
+
+
+
+
+
+
 
 @media screen and (max-width: 600px)
 {

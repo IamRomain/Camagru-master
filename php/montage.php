@@ -72,6 +72,7 @@
 			</form>
 		</div><div id="div_video">
 
+
 			
 			
 			<div id="cam">
@@ -326,5 +327,19 @@
 		reader.readAsDataURL(input.files[0]);
 	};
 	</script>
+
+	<div id='fleche_filtre'>
+				<button type='onclick' onclick='filter()'>filtre</button>
+			</div>
+
+			<script>
+
+				function filter(){
+					$('#fleche_filtre').hide();
+					$('#div_menu_gauche').animate({right: '+=400', 7000, 'linear'})
+				}
+
+			</script>
+
 </body>
 </html>
