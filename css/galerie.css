@@ -12,14 +12,14 @@
 
 body
 {
-	background: linear-gradient(#FAFBF8, #E1E8D8);
+	background: linear-gradient(#EBEEF1, white);
 }
 
 header
 {
 	height: 60px;
 	position: fixed;
-	background-color: #8FC0A9;
+	background-color: #727272;
 	width: 100%;
 	text-align: left;
 	z-index: 5;
@@ -49,7 +49,7 @@ header
 
 #lien_titre_2
 {
-	color: #E1E8D8;
+	color: #EBEEF1;
 	text-decoration: none;
 }
 
@@ -58,7 +58,7 @@ header
 	font-size: 25px;
 	float: right;
 	padding: 15px 20px;
-	color: #E1E8D8;
+	color: #EBEEF1;
 }
 
 #Deconnexion
@@ -70,6 +70,8 @@ header
 
 #content
 {
+	display: flex;
+	flex-direction: column;
 	padding-top: 100px;
 }
 
@@ -86,11 +88,11 @@ header
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
-	background-color: #8FC0A9;
+	background-color: #727272;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 10px;
-	color: #E1E8D8;
+	color: #EBEEF1;
 }
 
 #img
@@ -104,9 +106,9 @@ header
 	margin-left: 25%;
 	margin-right: 25%;
 	height: 20px;
-	background-color: #8FC0A9;
+	background-color: #727272	;
 	border: 0px;
-	color: #E1E8D8;
+	color: #EBEEF1;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 18px;
 }
@@ -129,7 +131,7 @@ header
 	margin-left: 25%;
 	margin-right: 25%;
 	height: 23px;
-	background-color: #8FC0A9;
+	background-color: #727272
 	color: #E1E8D8;
 }
 
@@ -145,9 +147,9 @@ header
 {
 	width: 50%;
 	height: 20px;
-	background-color: #8FC0A9;
+	background-color: #727272;
 	border: 0px;
-	color: #E1E8D8;
+	color: #EBEEF1;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 18px;
 }
