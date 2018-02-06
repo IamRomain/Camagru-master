@@ -26,7 +26,7 @@
 		$ret = $sql->fetch();
 		if ($ret)
 		{
-			if ($ret[verif] == "OUI")
+			if ($ret[verif] == "NON")
 			{
 				$_SESSION[login] = $ret[login];
 				header("Location: montage.php");

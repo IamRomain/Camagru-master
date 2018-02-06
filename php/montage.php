@@ -38,13 +38,15 @@
 </head>
 <body>
 	<header>
-		<h1 id="titre"><a id="lien_titre" href="index.php">Camagru</a></h1>
-		<a id="Deconnexion" href="index.php?user=deco"><img src="../img/Deconnexion.png"></a>
+		<a id="titre" href="index.php?user=deco"><img src="Logo_Camagru.png">
+		<a id="Deconnexion" href="index.php?user=deco"><img src="boutonoff6.png"></a>
 		<h2 id="titre_2"><a id="lien_titre_2" href="galerie.php">Galerie</a></h2>
 		<h3 id="titre_login"><?php echo $login ?></h3>
 	</header>
 	<div id="content">
 	<div id="midlane">
+
+
 		<div id="div_menu_gauche">
 			<div id="menu_gauche">
 				<label>
@@ -69,6 +71,9 @@
 				<br><input id="input_upload_file" type="file" accept="image/png" name="upload_file" onchange="openFile(event)">
 			</form>
 		</div><div id="div_video">
+
+			
+			
 			<div id="cam">
 				<input type="text" name="Titre" placeholder="Inscrivez ici le titre de la photo" id="input_titre" onchange="func_title(this)">
 				<video id="video"></video>
