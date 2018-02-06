@@ -36,8 +36,8 @@
 </head>
 <body>
 	<header>
-		<h1 id="titre"><a id="lien_titre" href="index.php">Camagru</a></h1>
-		<a id="Deconnexion" href="index.php?user=deco"><img src="../img/Deconnexion.png"></a>
+		<a id="titre" href="index.php?user=deco"><img src="Logo_Camagru.png">
+		<a id="Deconnexion" href="index.php?user=deco"><img src="boutonoff6.png"></a>
 		<h2 id="titre_2"><a id="lien_titre_2" href="montage.php">Montage</a></h2>
 		<h3 id="titre_login"><?php echo $login ?></h3>
 	</header>
@@ -86,7 +86,7 @@
 				$sql3 = $bdd3->prepare("SELECT * FROM comments WHERE path=?");
 				$sql3->execute(array($pictures[path]));
 				while ($com = $sql3->fetch())
-				{	
+				{
 					echo "<p id='mot'>".$com[user]." : ".$com[comment]."</p>";
 				}
 				echo "</div>";
