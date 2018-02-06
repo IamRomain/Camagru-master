@@ -106,23 +106,27 @@ header
 	margin-left: 25%;
 	margin-right: 25%;
 	height: 20px;
-	background-color: #727272	;
-	border: 0px;
+	background-color: #727272;
+	border: solid;
+	border-color: #727272;
+	border-width: thin;
 	color: #EBEEF1;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 18px;
+	/* padding: 5px; */
 }
 
 #nb_like
 {
-	width: 50%;
+	/* width: auto; */
 	margin-left: 25%;
 	margin-right: 25%;
 	height: 20px;
-	background-color: #8FC0A9;
-	color: #E1E8D8;
+	background-color: #EBEEF1;
+	color: #727272;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 18px;
+	padding: 5px;
 }
 
 #div_input_com
@@ -131,16 +135,16 @@ header
 	margin-left: 25%;
 	margin-right: 25%;
 	height: 23px;
-	background-color: #727272
+	/* background-color: #EBEEF1; */
 	color: #E1E8D8;
 }
 
 #div_input_com>input
 {
-	height: 20px;
-	width: 99%;
-	margin-top: 1px;
-	font-size: 15px;
+	height: 23px;
+	width: 100%;
+	/* margin-top: 1px; */
+	font-size: 18px;
 }
 
 #com_button
