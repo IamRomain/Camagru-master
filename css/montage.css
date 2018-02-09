@@ -53,7 +53,7 @@ header
 
 #lien_titre_2
 {
-	color: #E1E8D8;
+	color: #EBEEF1;
 	text-decoration: none;
 }
 
@@ -62,7 +62,7 @@ header
 	font-size: 25px;
 	float: right;
 	padding: 15px 20px;
-	color: #E1E8D8;
+	color: #EBEEF1;
 }
 
 #Deconnexion
@@ -238,7 +238,7 @@ header
 	height: 20px;
 	background-color: #CD5D67;
 	border: 0px;
-	color: #E1E8D8;
+	color: #EBEEF1;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 18px;
 }
@@ -254,7 +254,7 @@ header
 	height: 30px;
 	background-color: #727272;
 	border: 0px;
-	color: #E1E8D8;
+	color: #EBEEF1;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 25px;
 }
