@@ -274,6 +274,11 @@ header
 	display: none;
 }
 
+#fleche{
+	width: 100px;
+	height: 250px;
+	margin-top: -200px;
+}
 
 
 

@@ -39,7 +39,7 @@
 <body>
 	<header>
 		<a id="titre" href="index.php?user=deco"><img src="Logo_Camagru.png" id='logo'>
-		<a id="Deconnexion" href="index.php?user=deco"><img src="boutonoff6.png"></a>
+		<a id="Deconnexion" href="index.php?user=deco"><img src="boutonoff7.png"></a>
 		<h2 id="titre_2"><a id="lien_titre_2" href="galerie.php">Galerie</a></h2>
 		<h3 id="titre_login"><?php echo $login ?></h3>
 	</header>
@@ -329,7 +329,7 @@
 	</script>
 
 	<div id='fleche_filtre'>
-				<button type="onclick" id="fleche" onclick="a()">filtre</button>
+				<img src='../img/fichier 1.png' type="onclick" id="fleche" onclick="a()"/>
 			</div>
 
 
