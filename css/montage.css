@@ -18,7 +18,7 @@ header
 {
 	height: 60px;
 	position: fixed;
-	background-color: blue;
+	background-color: #727272;
 	width: 100%;
 	text-align: left;
 	z-index: 5;
@@ -87,7 +87,7 @@ header
 {
 	margin-top: 40px;
 	position: absolute;
-	
+	left: -400px;
 	display: inline-block;
 	width: 25%;
 	/*height: 100%;*/
