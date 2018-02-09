@@ -38,7 +38,7 @@
 </head>
 <body>
 	<header>
-		<a id="titre" href="index.php?user=deco"><img src="Logo_Camagru.png">
+		<a id="titre" href="index.php?user=deco"><img src="Logo_Camagru.png" id='logoo'>
 		<a id="Deconnexion" href="index.php?user=deco"><img src="boutonoff6.png"></a>
 		<h2 id="titre_2"><a id="lien_titre_2" href="galerie.php">Galerie</a></h2>
 		<h3 id="titre_login"><?php echo $login ?></h3>
@@ -329,15 +329,25 @@
 	</script>
 
 	<div id='fleche_filtre'>
-				<button type='onclick' onclick='filter()'>filtre</button>
+				<button type="onclick" id="fleche" onclick="a()">filtre</button>
 			</div>
+
+
+
+			<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
+				
+			</script>
 
 			<script>
 
-				function filter(){
+
+
+				function a(){
 					$('#fleche_filtre').hide();
-					$('#div_menu_gauche').animate({right: '+=400', 7000, 'linear'})
-				}
+					$('#div_menu_gauche').animate({left: '+=400px'}, 2000, 'swing');
+
+					
+				};
 
 			</script>
 

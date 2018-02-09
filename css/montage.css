@@ -32,6 +32,11 @@ header
 	margin-left: 25px;
 }
 
+#logoo{
+	width:150%;
+	margin-top: 15px;
+}
+
 #lien_titre
 {
 	font-family: 'Permanent Marker', sans-serif;
@@ -82,7 +87,7 @@ header
 {
 	margin-top: 40px;
 	position: absolute;
-	left: -400;
+	
 	display: inline-block;
 	width: 25%;
 	/*height: 100%;*/
@@ -275,7 +280,7 @@ header
 #fleche_filtre
 {
 	display: flex;
-	left: 50;
+	justify-content: flex-start;
 }
 
 
