@@ -18,7 +18,7 @@ header
 {
 	height: 60px;
 	position: fixed;
-	background-color: #727272;
+	background-color: blue;
 	width: 100%;
 	text-align: left;
 	z-index: 5;
