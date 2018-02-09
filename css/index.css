@@ -18,7 +18,7 @@ header
 {
 	height: 60px;
 	position: fixed;
-	background-color: #8FC0A9;
+	background-color: #727272;
 	width: 100%;
 	text-align: left;
 }
@@ -40,7 +40,7 @@ header
 
 .lien_header
 {
-	color: #E1E8D8;
+	color: #EBEEF1;
 	text-decoration: none;
 	font-size: 13px;
 	float: right;
@@ -49,7 +49,7 @@ header
 
 .lien_header:hover
 {
-	background-color: #82AF9A;
+	background-color: #EBEEF1;
 }
 
 #content
@@ -92,7 +92,7 @@ header
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 10px;
-	color: #E1E8D8;
+	color: #EBEEF1;
 }
 
 #titre_photo
@@ -102,7 +102,7 @@ header
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
-	background-color: #8FC0A9;
+	background-color: #EBEEF1;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 10px;
